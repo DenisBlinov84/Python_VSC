@@ -4,12 +4,26 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
-# def s(a):
-#     result = 0
-#     while a > 0:
-#         result += a % 10
-#         a //= 10
-#     return result
+# def get_count(number):
+#     s = str(number)
+#     if '.' in s:
+#         return abs(s.find('.') - len(s)) - 1
+#     else:
+#         return 0
+
+
+# a = input("Введите число --> ")
+# x = int(get_count(a))
+# y = float(a)
+# if x != 0:
+#     for i in range(x):
+#         y *= 10
+# y = int(y)
+# b = 0
+# for i in range(len(a) - 1):
+#     b += y % 10
+#     y //= 10
+# print(b)
 
 
 # print(s(53751))
