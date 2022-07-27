@@ -128,27 +128,15 @@
 # polynom1 = get_polynomial(k, ratios)
 # print(polynom1)
 
-# with open('33_Polynomial.txt', 'w') as data:
+# with open('Polynomial.txt', 'w') as data:
 #     data.write(polynom1)
 
 
-# # Второй многочлен для следующей задачи:
-
-# k = randint(2, 5)
-
-# ratios = get_ratios(k) 
-# polynom2 = get_polynomial(k, ratios)
-# print(polynom2)
-
-# with open('33_Polynomial2.txt', 'w') as data:
-#     data.write(polynom2)
 
 
 
-# Задача 5
-# Даны два файла, в каждом из которых находится запись многочлена. 
-# Задача - сформировать файл, содержащий сумму многочленов.
 
+<<<<<<< HEAD
 # import re
 # import itertools
 
@@ -222,3 +210,5 @@
 # print(pol1)
 # print(pol2)
 # print(pol_sum)
+=======
+>>>>>>> 3f617f816eb8d35aea5118e1a2cdddc3d981b9fd
