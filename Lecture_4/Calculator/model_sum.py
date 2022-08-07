@@ -1,16 +1,13 @@
-from re import X
-
-
 x = 0
 y = 0
 
-def init(a, b): # метод отвечающий за инициализацию
-    global x 
-    global y 
+
+def init(a, b):  # метод отвечающий за инициализацию
+    global x
+    global y
     x = a
-    y = b 
+    y = b
+
 
 def do_it():
-    return x +y
-    
-        
+    return x + y
