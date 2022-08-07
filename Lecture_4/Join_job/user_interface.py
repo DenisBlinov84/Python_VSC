@@ -1,6 +1,3 @@
-import imp
-
-
 import data_provider as prov
 import logger as log
 
@@ -20,5 +17,3 @@ def wind_speed_view(senson):
     data = prov.get_wind_speed(senson)
     log.wind_speed_logger(data)
     return data
-
-    
